@@ -15,3 +15,23 @@ const getHumanChoice = () => {
     ? choose
     : (alert('please enter a valid input'), getHumanChoice())
 }
+
+const play = () => {
+  const human = getHumanChoice()
+  const pc = pcChoice()
+  pc === human
+    ? console.log('draw')
+    : pc == 'rock' && human == 'scissors'
+    ? console.log('you lost')
+    : pc == 'rock' && human == 'paper'
+    ? console.log('you win')
+    : pc == 'scissors' && human == 'rock'
+    ? console.log('you win')
+    : pc == 'scissors' && human == 'paper'
+    ? console.log('you lost')
+    : pc == 'paper' && human == 'scissors'
+    ? console.log('you win')
+    : pc == 'paper' && human == 'rock'
+    ? console.log('you win')
+    : console.log('somthing went wrong')
+}
