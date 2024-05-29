@@ -21,8 +21,8 @@
   justify-content: space-between;
   padding-left: 10%;
   padding-right: 10%;
-  background-color: #3b3936;
-  color: #b2bebf;
+  background-color: #260101;
+  color: wheat;
 }
 ul {
   list-style: none;
@@ -34,9 +34,9 @@ ul {
   gap: 25px;
 }
 .hero {
-  background-color: #b2bebf;
+  background-color: wheat;
   height: 80vh;
-  color: #3b3936;
+  color: #260101;
 }
 .pick {
   padding: 50px;
@@ -46,22 +46,22 @@ ul {
 .option {
   width: 10rem;
   height: 5rem;
-  background-color: #486966;
-  color: #b2bebf;
+  background-color: #7c391c;
+  color: wheat;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 2rem;
 }
 #footer2 {
-  background: #3b3936;
+  background: #260101;
   padding: 3rem;
   margin-top: 0px;
   /* padding-top: 5rem; */
   padding-top: 7rem;
   padding-bottom: 80px;
   background-image: url(../images/cards/v748-toon-111.png);
-  color: #b2bebf;
+  color: wheat;
 }
 .link {
   color: #889c9b;
@@ -70,14 +70,58 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 2rem;
 }
 .options {
-  background-color: #3b3936;
-  height: 50vh;
+  background-color: #260101;
+  height: 30vh;
   width: 80%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 10px;
   border-radius: 4rem;
+}
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #260101;
+  color: #889c9b;
+  height: 30vh;
+  width: 80%;
+  border-radius: 4rem;
+  align-items: center;
+  visibility: hidden;
+}
+.choicImg {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70%;
+}
+.yourChoic,
+.pcChoic {
+  width: 10rem;
+  height: 5rem;
+  background-color: #7c391c;
+  color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+}
+.finalResult {
+  background-color: green;
+  width: 10rem;
+  height: 5rem;
+  color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  font-weight: 900;
+  font-size: larger;
 }

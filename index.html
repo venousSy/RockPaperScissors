@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script type="text/javascript" src="index.js"></script>
+    <script src="index.js " defer></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -25,10 +25,17 @@
           <div class="pick">Pick your choice</div>
           <div class="container">
             <ul class="options">
-              <li class="option">rock</li>
-              <li class="option">paper</li>
-              <li class="option">scissors</li>
+              <button class="option rock">rock</button>
+              <button class="option papaer">paper</button>
+              <button class="option scissors">scissors</button>
             </ul>
+            <div class="result">
+              <div class="choicImg">
+                <div class="yourChoic"></div>
+                <div class="pcChoic"></div>
+              </div>
+              <div class="finalResult"></div>
+            </div>
           </div>
         </section>
       </div>
